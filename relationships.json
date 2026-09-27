@@ -1,18 +1,18 @@
 {
     "relationships": [
-        ["Jacob", "Dawson"],
-        ["Jacob", "Caroline"],
-        ["Dawson", "Pat"],
-        ["Dawson", "Kylie"],
-        ["Bryce", "Skylar"],
-        ["Emma", "Faith"],
-        ["Emma", "Skylar"],
-        ["Emma", "Kat"],
-        ["Emma", "Alyssa"],
-        ["Emma", "Alex"],
-        ["Faith", "Skylar"],
-        ["Skylar", "Jonathan"],
-        ["Jonathan", "Madi"],
-        ["Madi", "Caroline"]
+        ["Rent", "Bilt"],
+        ["Alaska Airlines Visa", "Bilt"],
+        ["Bilt", "Alaska miles"],
+        ["Alaska miles", "Award flights"],
+        ["Award flights", "Alaska status credit"],
+        ["Alaska status credit", "oneworld status benefits"],
+        ["Alaska miles", "American airlines flights"],
+        ["American airlines flights", "GSP -> LGA: ~4.5k miles one way"],
+        ["Alaska Airlines", "oneworld partners"],
+        ["oneworld partners", "American airlines flights"],
+        ["Alaska Airlines", "Low mileage prices on short routes"],
+        ["Low mileage prices on short routes", "GSP -> LGA: ~4.5k miles one way"],
+        ["Alaska Airlines", "Global Getaways"],
+        ["Global Getaways", "Examples: Japan, Vietnam"]
     ]
 }

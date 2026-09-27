@@ -7,7 +7,7 @@ from pyvis.network import Network
 
 def main():
 
-    G = nx.Graph()
+    G = nx.DiGraph()
 
     with Path("relationships.json").open("r") as f:
         relationships = json.load(f)["relationships"]
