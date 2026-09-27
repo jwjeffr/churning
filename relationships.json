@@ -1,18 +1,18 @@
 {
     "relationships": [
-        ["Rent", "Bilt"],
-        ["Alaska Airlines Visa", "Bilt"],
-        ["Bilt", "Alaska miles"],
-        ["Alaska miles", "Award flights"],
-        ["Award flights", "Alaska status credit"],
-        ["Alaska status credit", "oneworld status benefits"],
-        ["Alaska miles", "American airlines flights"],
-        ["American airlines flights", "GSP -> LGA: ~4.5k miles one way"],
-        ["Alaska Airlines", "oneworld partners"],
-        ["oneworld partners", "American airlines flights"],
-        ["Alaska Airlines", "Low mileage prices on short routes"],
-        ["Low mileage prices on short routes", "GSP -> LGA: ~4.5k miles one way"],
-        ["Alaska Airlines", "Global Getaways"],
-        ["Global Getaways", "Examples: Japan, Vietnam"]
+        ["Rent", "Bilt", "paid through"],
+        ["Alaska Airlines Visa", "Bilt", "used in Bilt app"],
+        ["Bilt", "Alaska miles", "3x miles on rent"],
+        ["Alaska miles", "Award flights", "can book eligible flights"],
+        ["Award flights", "Alaska status credit", "distance-based"],
+        ["Alaska status credit", "oneworld status benefits", "earns"],
+        ["Alaska miles", "American airlines flights", "redeem for partner awards"],
+        ["American airlines flights", "GSP -> LGA: ~4.5k miles one way", "solid award seat availability"],
+        ["Alaska Airlines", "oneworld partners", "oneworld membership enables"],
+        ["oneworld partners", "American airlines flights", "includes"],
+        ["Alaska Airlines", "Low mileage prices on short routes", "distance-based award pricing"],
+        ["Low mileage prices on short routes", "GSP -> LGA: ~4.5k miles one way", "example"],
+        ["Alaska Airlines", "Global Getaways", "also offers"],
+        ["Global Getaways", "Examples: Japan, Vietnam", "periodic heavily discounted awards"]
     ]
 }
